@@ -10,11 +10,11 @@
     <form action="">
         <div>
             <label for="">Nombre</label>
-            <input type="text" name="nombre">   
+            <input type="text" name="nombre" minlength="8" maxlength="15">   
         </div>
         <div>
             <label for="">apellido</label>
-            <input type="text" name="apellido">
+            <input type="text" name="apellido" min="8" maxlength="15">
         </div>
         <div>
             <label for="">email</label>
@@ -30,7 +30,8 @@
         </div>
         <div>
             <label for="">cantidad</label>
-            <input type="number" name="cantidad" id="">  
+            <input type="number" name="cantidad" id="" min="1" max="99">  
+
         </div>
         <div>
             <input type="submit" value="enviar">
